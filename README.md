@@ -33,12 +33,15 @@ Ejemplo:
 ```
 https://localhost:5001/swagger/index.html
 ```
-* Endpoint para consultar toda la tabla
+* Endpoint para metodo GET (Consulta de toda la tabla):
+
 ![image](https://user-images.githubusercontent.com/30899756/114290510-d7455c00-9a45-11eb-993a-69c432885a76.png)
 
-* Endpoint para agregar datos a la tabla
+* Endpoint para metodos POST:
+
 ![image](https://user-images.githubusercontent.com/30899756/114290598-5cc90c00-9a46-11eb-8751-ee859d158ced.png)
-Ejemplo de uso de POST
+
+Ejemplo de uso de POST:
 
 ```
 {
@@ -51,13 +54,17 @@ Ejemplo de uso de POST
   "descripcion": "string"
 }
 ```
-* Endpoint para consultar un solo dato por id
+
+* Endpoint para metodo GET (Consulta por elemento Id):
+ 
 ![image](https://user-images.githubusercontent.com/30899756/114290683-f85a7c80-9a46-11eb-9e0c-c235d5e790e2.png)
 
-* Endpoint para modificar datos
+* Endpoint para metodo PUT (modificar datos):
+ 
 ![image](https://user-images.githubusercontent.com/30899756/114290759-77e84b80-9a47-11eb-9f84-cd8734f2395f.png)
 
-Ejemplo de uso de PUT
+Ejemplo de uso de PUT:
+
 ```
 {
   "id": 1,
@@ -69,7 +76,12 @@ Ejemplo de uso de PUT
   "descripcion": "Hola Modificacion"
 }
 ```
-* Endpoint para uso de DELETE
+* Endpoint para metodo DELETE:
+
 ![image](https://user-images.githubusercontent.com/30899756/114290772-8c2c4880-9a47-11eb-85ff-805d77c6d059.png)
 
+### Documentacion
 
+* https://docs.microsoft.com/en-us/ef/core/
+* https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-5.0
+* https://stormpath.com/blog/tutorial-entity-framework-core-in-memory-database-asp-net-core
