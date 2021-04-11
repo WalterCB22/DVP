@@ -19,7 +19,7 @@ Esquematicos de las tablas:
 * [Tecnologie Swagger Open API]
 
 Proyecto listo para la ejecucion en Docker.
-Desde la consola de comandos unbicandonos en la carpeta raiz ejecutamos el comando 
+Desde la consola de comandos unbicandonos en la carpeta raiz del proyecto ejecutamos el comando 
 
 ```
 $ dotnet run
@@ -28,7 +28,7 @@ Tendremos como respuesta:
 
 ![image](https://user-images.githubusercontent.com/30899756/114291080-1aa1c980-9a4a-11eb-8013-2dc1feeee554.png)
 
-Ejecutar desde el navegador la ruta dada como respuesta en la consola y agregar los endpoints en caso de que se quiera utlizar swagger "/swagger/index.html"
+Ejecutar desde el navegador la ruta dada como respuesta en la consola y agregamo los endpoints en caso de que se quiera utlizar swagger "/swagger/index.html"
 Ejemplo:
 ```
 https://localhost:5001/swagger/index.html
