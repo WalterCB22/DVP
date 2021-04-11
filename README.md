@@ -9,28 +9,46 @@ Los ticket tienen un id, un usuario, una fecha de creación, una fecha de actual
 * [Tecnologie Swagger Open API]
 
 Proyecto listo para la ejecucion en Docker.
-desde la consola de comandos unbicandonos en la carpeta raiz ejecutamos el comando 
+Desde la consola de comandos unbicandonos en la carpeta raiz ejecutamos el comando 
 
 ```
 $ dotnet run
 ```
 
-ejecutar desde la ruta dada como respues en la consola y agregar los endpoints "/swagger/index.html"
+Ejecutar desde la ruta dada como respuesta en la consola y agregar los endpoints "/swagger/index.html"
 Ejemplo:
-
+```
 https://localhost:5001/swagger/index.html
+```
+Endpoint para consultar toda la tabla
+![image](https://user-images.githubusercontent.com/30899756/114290510-d7455c00-9a45-11eb-993a-69c432885a76.png)
 
 Ejemplo de uso de PUT
 ```
-${
-$  "id": 1,
-$  "estado": false,
-$  "usuario": {
-$    "id": 1,
-$  },
-$  "usuarioId": 1,
-$  "descripcion": "Hola Modificacion"
-$}
+{
+  "id": 1,
+  "estado": false,
+  "usuario": {
+    "id": 1,
+  },
+  "usuarioId": 1,
+  "descripcion": "Hola Modificacion"
+}
+```
+Endpoint para agregar datos a la tabla
+![image](https://user-images.githubusercontent.com/30899756/114290598-5cc90c00-9a46-11eb-8751-ee859d158ced.png)
+Ejemplo de uso de PUT
+
+```
+{
+  "estado": true,
+  "usuario": {
+    "id": 0,
+    "nombre": "string",
+    "email": "string"
+  },
+  "descripcion": "string"
+}
 ```
 
 
