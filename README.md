@@ -5,7 +5,7 @@
 La API permite crear, eliminar, editar y recuperar tickets. Las consultas permiten la recuperacion de ticket especificas o el contenido de todas las tablas.
 Consta de dos tablas relacionadas: 
 * la tabla **Usuario** contiene los campos Id, Nombre y Email.
-* La tabla **Ticket** Id, FechaDeCreacion, FechaDeActualizacion, Estado, UsuarioID, Descripcion. 
+* La tabla **Ticket** contiene los campos Id, FechaDeCreacion, FechaDeActualizacion, Estado, UsuarioID, Descripcion. 
 * La tabla esta incilizada con tres usuarios. 
 
 Esquematicos de las tablas: 
