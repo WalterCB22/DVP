@@ -2,19 +2,21 @@
 * (Prueba tecnica Double V Partners)
 ***
 
-API que permite crear, eliminar, editar y recuperar tickets. Permitere recuperar todos lo tickets o filtrar por uno específico.
-consta de dos tablas, la tabla Usuario contiene los campos Id, Nombre y Email y la tabla Ticket Id, FechaDeCreacion, FechaDeActualizacion, Estado, UsuarioID, Descripcion. 
-Los ticket tienen un id, un usuario, una fecha de creación, una fecha de actualización y un estatus (abierto/cerrado).
+La API permite crear, eliminar, editar y recuperar tickets. Las consultas permiten la recuperacion de ticket especificas o el contenido de todas las tablas.
+Consta de dos tablas relacionadas: 
+* la tabla **Usuario** contiene los campos Id, Nombre y Email.
+* La tabla **Ticket** Id, FechaDeCreacion, FechaDeActualizacion, Estado, UsuarioID, Descripcion. 
+* La tabla esta incilizada con tres usuarios. 
 
-La tabla esta incilizada con tres usuarios. 
+Esquematicos de las tablas: 
+![image](https://user-images.githubusercontent.com/30899756/114290981-45d7e900-9a49-11eb-824f-dbde487436cf.png)
+![image](https://user-images.githubusercontent.com/30899756/114290988-56885f00-9a49-11eb-85b2-9bd8157cfe21.png)
+
+### Se utilizaron las Tecnologias: 
 
 * [Technologie .net core](https://dotnet.microsoft.com/download): Version 5.0
 * [Technologie Entity Framework Core]
 * [Tecnologie Swagger Open API]
-
-Esquematico de las tablas: 
-![image](https://user-images.githubusercontent.com/30899756/114290981-45d7e900-9a49-11eb-824f-dbde487436cf.png)
-![image](https://user-images.githubusercontent.com/30899756/114290988-56885f00-9a49-11eb-85b2-9bd8157cfe21.png)
 
 Proyecto listo para la ejecucion en Docker.
 Desde la consola de comandos unbicandonos en la carpeta raiz ejecutamos el comando 
