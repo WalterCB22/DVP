@@ -36,8 +36,8 @@ namespace DVP
                 context.SaveChanges();
 
                 var ticket1 = new Ticket(usuario1.Id, true);
-                var ticket2 = new Ticket(usuario1.Id, true, "hola Mundo");
-                var ticket3 = new Ticket(usuario1.Id, true);
+                var ticket2 = new Ticket(usuario2.Id, true, "hola Mundo");
+                var ticket3 = new Ticket(usuario3.Id, true);
 
                 context.Tickets.AddRange(new Ticket[] { ticket1, ticket2, ticket3 });
                 context.SaveChanges();

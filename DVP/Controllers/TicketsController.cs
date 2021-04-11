@@ -50,7 +50,10 @@ namespace DVP.Controllers
             {
                 return BadRequest();
             }
-            _context.Entry(ticket).State = EntityState.Modified;
+
+            var EntryToUpdate = _context.Entry(ticket);
+            EntryToUpdate.State = EntityState.Modified;
+            EntryToUpdate.Property("FechaDeCreacion").IsModified = false;
             try
             {
                 await _context.SaveChangesAsync();
