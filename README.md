@@ -2,7 +2,7 @@
 * (Prueba tecnica Double V Partners)
 ***
 
-La API permite crear, eliminar, editar y recuperar tickets. Las consultas permiten la recuperacion de ticket especificas o el contenido de todas las tablas.
+La API permite crear, eliminar, editar y recuperar tickets. Las consultas permiten la recuperacion de tickets especificos o el contenido de todas las tablas.
 Consta de dos tablas relacionadas: 
 * la tabla **Usuario** contiene los campos Id, Nombre y Email.
 * La tabla **Ticket** contiene los campos Id, FechaDeCreacion, FechaDeActualizacion, Estado, UsuarioID, Descripcion. 
@@ -28,7 +28,7 @@ Tendremos como respuesta:
 
 ![image](https://user-images.githubusercontent.com/30899756/114291080-1aa1c980-9a4a-11eb-8013-2dc1feeee554.png)
 
-Ejecutar desde el navegador la ruta dada como respuesta en la consola y agregamo los endpoints en caso de que se quiera utlizar swagger "/swagger/index.html"
+Ejecutar desde el navegador la ruta dada como respuesta en la consola y agregamos el endpoint, en caso de que se quiera utlizar swagger "/swagger/index.html"
 Ejemplo:
 ```
 https://localhost:5001/swagger/index.html
