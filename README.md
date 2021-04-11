@@ -10,8 +10,11 @@ La tabla esta incilizada con tres usuarios.
 * [Technologie Entity Framework Core]
 * [Tecnologie Swagger Open API]
 
-Esquematico de las tablas 
-![Uploading image.png…]()
+Esquematico de las tablas: 
+![image](https://user-images.githubusercontent.com/30899756/114290981-45d7e900-9a49-11eb-824f-dbde487436cf.png)
+![image](https://user-images.githubusercontent.com/30899756/114290988-56885f00-9a49-11eb-85b2-9bd8157cfe21.png)
+
+
 
 Proyecto listo para la ejecucion en Docker.
 Desde la consola de comandos unbicandonos en la carpeta raiz ejecutamos el comando 
