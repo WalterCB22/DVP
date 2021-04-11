@@ -11,9 +11,9 @@ Los ticket tienen un id, un usuario, una fecha de creación, una fecha de actual
 Proyecto listo para la ejecucion en Docker.
 desde la consola de comandos unbicandonos en la carpeta raiz ejecutamos el comando 
 
-´´´
+```
 $ dotnet run
-´´´
+```
 
 ejecutar desde la ruta dada como respues en la consola y agregar los endpoints "/swagger/index.html"
 Ejemplo:
@@ -21,7 +21,7 @@ Ejemplo:
 https://localhost:5001/swagger/index.html
 
 Ejemplo de uso de PUT
-...
+```
 ${
 $  "id": 1,
 $  "estado": false,
@@ -31,6 +31,6 @@ $  },
 $  "usuarioId": 1,
 $  "descripcion": "Hola Modificacion"
 $}
-...
+```
 
 
