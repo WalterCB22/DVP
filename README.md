@@ -1,5 +1,5 @@
-# DVP API CRUD 
-* (Prueba tecnica Double V Partners)
+# API CRUD 
+* ASP NETcore
 ***
 
 La API permite crear, eliminar, editar y recuperar tickets. Las consultas permiten la recuperacion de tickets especificos o el contenido de todas las tablas.
